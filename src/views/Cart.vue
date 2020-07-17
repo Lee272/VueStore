@@ -38,7 +38,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 .cart-list {
   width: 70%;
   @media only screen and (max-width: 832px) {
