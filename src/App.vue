@@ -1,4 +1,3 @@
-
 <template>
   <div id="app">
     <div id="nav" class="wrapper flex-col flex-col--align-center">
