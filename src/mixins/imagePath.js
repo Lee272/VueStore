@@ -1,3 +1,4 @@
+/* eslint-disable */
 export const imagePath = {
   methods: {
     makeImagePath(product) {

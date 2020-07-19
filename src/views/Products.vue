@@ -12,7 +12,7 @@
           <p>
             <em>{{ product.quantity }} left in stock</em>
           </p>
-          <h3>Details</h3>
+          <h3>Details:</h3>
           <ul>
             <li>Material: {{ product.details.material }}</li>
             <li>Fit: {{ product.details.fit }}</li>
@@ -50,6 +50,7 @@ export default {
 }
 .flex-col--2 {
   width: 50%;
+  padding: 1rem;
 }
 .flex-justify-right {
   text-align: right;

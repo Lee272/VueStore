@@ -10,7 +10,7 @@
             <p>Size: {{ item.size }}</p>
             <p>Color: {{ item.color }}</p>
           </div>
-          <p>${{ item.price }}</p>
+          <p>${{ item.price }}</p>/
           <button @click="removeFromCart(item.id)" class="btn cart-list__btn-remove">Remove</button>
         </div>
       </li>
@@ -39,6 +39,10 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  margin: 0;
+}
+
 .cart-list {
   width: 70%;
   @media only screen and (max-width: 832px) {

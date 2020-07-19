@@ -1,16 +1,18 @@
 <template>
-  <div id="app">
-    <div id="nav" class="wrapper flex-col flex-col--align-center">
-      <h1 class="flex-col--2">MyStore</h1>
-      <div class="flex-col--2 nav-items">
-        <router-link to="/" class="nav-items__item">Home</router-link>
-        <router-link to="/cart" class="nav-items__item">
-          Cart
-          <counter-badge :count="cartCount"></counter-badge>
-        </router-link>
+  <div>
+    <div id="app">
+      <div id="nav" class="wrapper flex-col flex-col--align-center">
+        <h1 class="flex-col--2">MyStore</h1>
+        <div class="flex-col--2 nav-items">
+          <router-link to="/" class="nav-items__item">Home</router-link>
+          <router-link to="/cart" class="nav-items__item">
+            Cart
+            <counter-badge :count="cartCount"></counter-badge>
+          </router-link>
+        </div>
       </div>
+      <router-view />
     </div>
-    <router-view />
   </div>
 </template>
 
@@ -29,6 +31,11 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  margin: 0;
+  background: #f1f1f1;
+}
+
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
