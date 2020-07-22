@@ -61,7 +61,7 @@ body {
 .cart-list__btn-remove {
   margin-top: 0.5rem;
   &:hover {
-    color: red;
+    color: rgba(255, 0, 0, 0.904);
   }
 }
 .thumbnail {
