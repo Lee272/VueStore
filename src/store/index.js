@@ -10,7 +10,7 @@ export default new Vuex.Store({
       {
         name: "Crewneck T-Shirt",
         id: 53362,
-        price: 9.5,
+        price: 9.99,
         color: "white",
         size: "small",
         gender: "men",
@@ -29,7 +29,7 @@ export default new Vuex.Store({
       {
         name: "Cardigan Sweater",
         id: 53363,
-        price: 49.5,
+        price: 49.99,
         color: "red",
         size: "medium",
         gender: "women",
@@ -53,7 +53,7 @@ export default new Vuex.Store({
       {
         name: "Slim Fit Jeans",
         id: 53364,
-        price: 29.5,
+        price: 34.99,
         color: "navy",
         size: {
           waist: 32,
